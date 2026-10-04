@@ -1,0 +1,11 @@
+// Validating benchmarks:
+// Benchmark StringBenchmark.StringConcatenation: DefaultJob [Iterations=100]
+//    * Benchmarked method `StringConcatenation` is within a non-visible class, all declaring types must be public.
+
+// Benchmark StringBenchmark.StringBuilderConcatenation: DefaultJob [Iterations=100]
+//    * Benchmarked method `StringBuilderConcatenation` is within a non-visible class, all declaring types must be public.
+
+//    * Assembly Assignment-4 which defines benchmarks is non-optimized
+Benchmark was built without optimization enabled (most probably a DEBUG configuration). Please, build it in RELEASE.
+If you want to debug the benchmarks, please see https://benchmarkdotnet.org/articles/guides/troubleshooting.html#debugging-benchmarks.
+
